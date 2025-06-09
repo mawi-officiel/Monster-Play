@@ -32,7 +32,7 @@
   [https://mawi-officiel.github.io/Monster-Play/](https://mawi-officiel.github.io/Monster-Play/)
 
 - **سياسة الخصوصية:**  
-  [http://localhost/Monster-Play/privacy-policy.html](http://localhost/Monster-Play/privacy-policy.html)  
+  [http://localhost/Monster-Play/privacy-policy.html](https://mawi-officiel.github.io/Monster-Play/privacy-policy.html)  
   *(يُرجى تحديث هذا الرابط لاحقًا ليكون متاحاً على الإنترنت)*
 
 - **مطور التطبيق:**  
@@ -47,7 +47,6 @@
 
 📹 **رابط الشرح بالفيديو: قريبا**  
 [https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)  
-> *(يرجى استبدال `YOUR_VIDEO_ID` لاحقًا برابط الفيديو الخاص بك)*
 
 ### 📥 هل تفضل تحميل التطبيق أولاً؟  
 بإمكانك تحميل **Monster-Play** مباشرة من الرابط أعلاه أو متابعة الفيديو لإنشاء تطبيقك الخاص مجاناً!
