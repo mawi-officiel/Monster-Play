@@ -33,7 +33,6 @@
 
 - **سياسة الخصوصية:**  
   [Privacy Policy](https://mawi-officiel.github.io/Monster-Play/privacy-policy.html)  
-  *(يُرجى تحديث هذا الرابط لاحقًا ليكون متاحاً على الإنترنت)*
 
 - **مطور التطبيق:**  
   [https://mawi.taplink.ws/](https://mawi.taplink.ws/)
