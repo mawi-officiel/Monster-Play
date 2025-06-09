@@ -29,10 +29,10 @@
 ## 📲 تحميل التطبيق
 
 - **رابط التحميل الرسمي:**  
-  [https://mawi-officiel.github.io/Monster-Play/](https://mawi-officiel.github.io/Monster-Play/)
+  [Monster Play](https://mawi-officiel.github.io/Monster-Play/)
 
 - **سياسة الخصوصية:**  
-  [http://localhost/Monster-Play/privacy-policy.html](https://mawi-officiel.github.io/Monster-Play/privacy-policy.html)  
+  [Privacy Policy](https://mawi-officiel.github.io/Monster-Play/privacy-policy.html)  
   *(يُرجى تحديث هذا الرابط لاحقًا ليكون متاحاً على الإنترنت)*
 
 - **مطور التطبيق:**  
