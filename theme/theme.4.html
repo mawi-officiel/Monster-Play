@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme 4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://mawi-officiel.github.io/Monster-Play/cdn/css/theme/theme.4.css">
+</head>
+<body class="font-sans">
+    <div id="loading-screen">
+        <div class="magic-spinner"></div>
+        <p class="text-2xl font-bold text-[#4A90E2] mt-8 animate-pulse">مرحباً بك في عالمنا السحري...</p>
+    </div>
+    <button id="favorites-button" class="shadow-lg">
+        <span class="material-symbols-outlined">favorite</span> مفضلاتي السحرية
+    </button>
+    <header class="bg-gradient-to-br from-[#87CEEB] to-[#B0E0E6] p-8 pb-16 shadow-lg rounded-b-[4rem] relative overflow-hidden disney-header-bg">
+        <div class="container mx-auto text-center relative z-10">
+            <img src="https://taplink.st/a/7/d/6/d/a57088.png" alt="شعار تطبيق Monster Play" class="mx-auto mb-6 w-44 h-44 object-contain rounded-full shadow-xl border-4 border-white animate-fairyDustFadeIn">
+            <h1 class="text-6xl font-extrabold text-white mb-4 tracking-wide leading-tight animate-fairyDustFadeIn" style="animation-delay: 0.2s;">
+                Monster Play
+            </h1>
+            <p class="text-xl text-white font-medium max-w-3xl mx-auto leading-relaxed opacity-90 animate-fairyDustFadeIn" style="animation-delay: 0.4s;">
+                حيث تتحول أحلام اللعب إلى حقيقة! اكتشف مغامرات لا نهاية لها.
+            </p>
+        </div>
+        <div class="absolute inset-0 z-0 opacity-20">
+            <div class="absolute w-60 h-60 bg-[#FFD700] rounded-full top-10 right-10 blur-3xl animate-pulse" style="animation-delay: 0.5s;"></div>
+            <div class="absolute w-80 h-80 bg-[#9C27B0] rounded-full bottom-0 left-0 blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+        </div>
+    </header>
+    <main class="container mx-auto p-8 pt-16">
+        <h2 class="text-5xl font-bold mb-12 text-center text-[#4A90E2] animate-fairyDustFadeIn" style="animation-delay: 0.6s;">انطلق في مغامراتك السحرية</h2>
+        <div class="mb-12 text-center animate-fairyDustFadeIn" style="animation-delay: 0.8s;">
+            <input type="text" id="game-search" placeholder="ابحث عن رحلتك القادمة..."
+                   class="w-full sm:w-2/3 md:w-1/2 lg:w-2/5 p-4 rounded-full bg-white text-[#495057] placeholder-[#A0AEC0] focus:outline-none focus:ring-4 focus:ring-[#AED6F1] focus:ring-opacity-70 transition duration-300 shadow-lg text-lg text-right border border-[#E0F2F7]">
+        </div>
+        <div class="mb-12 text-center animate-fairyDustFadeIn" style="animation-delay: 1s;">
+            <div class="inline-flex flex-wrap justify-center gap-4 bg-white p-3 rounded-full shadow-lg border border-[#E0F2F7]">
+                <button class="filter-button py-2 px-6 rounded-full active" data-category="all">كل العوالم</button>
+                <button class="filter-button py-2 px-6 rounded-full" data-category="action">ألعاب الحركة</button>
+                <button class="filter-button py-2 px-6 rounded-full" data-category="puzzle">أحاجي ساحرة</button>
+                <button class="filter-button py-2 px-6 rounded-full" data-category="sports">تحديات الأبطال</button>
+                <button class="filter-button py-2 px-6 rounded-full" data-category="card">أوراق الحظ</button>
+                <button class="filter-button py-2 px-6 rounded-full" data-category="music">نغمات مبهجة</button>
+                <button class="filter-button py-2 px-6 rounded-full" data-category="casual">مغامرات خفيفة</button>
+                <button class="filter-button py-2 px-6 rounded-full" data-category="math">أرقام سحرية</button>
+            </div>
+        </div>
+        <div id="games-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+        </div>
+    </main>
+    <footer class="bg-gradient-to-tr from-[#87CEEB] to-[#B0E0E6] p-8 mt-16 shadow-inner rounded-t-[4rem]">
+        <div class="container mx-auto text-center text-white text-lg">
+            © 2025 Monster Play. كل الحقوق محفوظة.
+            <p class="text-sm mt-2">استمتع بسحر اللعب!</p>
+        </div>
+    </footer>
+    <div id="favorites-popup">
+        <h2 class="mb-6"> <span class="material-symbols-outlined text-[#FFD700]">sparkle</span> صندوق الأمنيات</h2>
+        <ul id="favorites-list">
+        </ul>
+        <button id="close-favorites">إغلاق</button>
+    </div>
+    <div id="overlay"></div>
+    <script src="https://mawi-officiel.github.io/Monster-Play/cdn/js/theme/theme.4.js" defer></script>
+</body>
+</html>

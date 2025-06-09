@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://mawi-officiel.github.io/Monster-Play/cdn/css/theme/theme.3.css">
+</head>
+<body class="bg-gray-950 text-white font-sans">
+    <div id="loading-screen">
+        <div class="spinner"></div>
+    </div>
+    <button id="favorites-button" class="shadow-lg">
+        <span class="material-symbols-outlined">favorite</span> المفضلة
+    </button>
+    <header class="bg-white p-8 pb-12 shadow-md rounded-b-[3rem] relative overflow-hidden modern-header-bg">
+        <div class="container mx-auto text-center relative z-10">
+            <img src="https://taplink.st/a/7/d/6/d/a57088.png" alt="شعار تطبيق Monster Play" class="mx-auto mb-6 w-36 h-36 object-contain rounded-full shadow-lg animate-slideUp">
+            <h1 class="text-5xl font-extrabold text-[#2D3748] mb-3 tracking-wide leading-tight animate-slideUp" style="animation-delay: 0.2s;">
+                Monster Play
+            </h1>
+            <p class="text-lg text-[#718096] font-medium max-w-2xl mx-auto leading-relaxed animate-slideUp" style="animation-delay: 0.4s;">
+                اكتشف مجموعتنا الواسعة من الألعاب المصممة خصيصًا لتوفير المتعة والتحدي لكل لاعب.
+            </p>
+        </div>
+    </header>
+    <main class="container mx-auto p-8 pt-16">
+        <h2 class="text-4xl font-bold mb-10 text-center text-[#2D3748] animate-slideUp" style="animation-delay: 0.6s;">تصفح أحدث الألعاب</h2>
+        <div class="mb-10 text-center animate-slideUp" style="animation-delay: 0.8s;">
+            <input type="text" id="game-search" placeholder="ابحث عن لعبتك المفضلة..."
+                   class="w-full sm:w-2/3 md:w-1/2 lg:w-2/5 p-4 rounded-full bg-white text-[#4A5568] placeholder-[#A0AEC0] focus:outline-none focus:ring-2 focus:ring-[#4299E1] transition duration-200 shadow-md text-lg text-right border border-[#CBD5E0]">
+        </div>
+        <div class="mb-10 text-center animate-slideUp" style="animation-delay: 1s;">
+            <div class="inline-flex flex-wrap justify-center gap-3 bg-white p-2 rounded-full shadow-md border border-[#CBD5E0]">
+                <button class="filter-button py-2 px-5 rounded-full active" data-category="all">كل الألعاب</button>
+                <button class="filter-button py-2 px-5 rounded-full" data-category="action">ألعاب حركية</button>
+                <button class="filter-button py-2 px-5 rounded-full" data-category="puzzle">ألغاز</button>
+                <button class="filter-button py-2 px-5 rounded-full" data-category="sports">رياضة</button>
+                <button class="filter-button py-2 px-5 rounded-full" data-category="card">ألعاب ورق</button>
+                <button class="filter-button py-2 px-5 rounded-full" data-category="music">موسيقى</button>
+                <button class="filter-button py-2 px-5 rounded-full" data-category="casual">ألعاب خفيفة</button>
+                <button class="filter-button py-2 px-5 rounded-full" data-category="math">رياضيات</button>
+            </div>
+        </div>
+        <div id="games-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        </div>
+    </main>
+    <footer class="bg-white p-6 mt-16 shadow-inner rounded-t-[3rem]">
+        <div class="container mx-auto text-center text-[#718096] text-sm">
+            © 2025 Monster Play. جميع الحقوق محفوظة.
+            <p class="mt-1">تصميم نظيف وبسيط لتجربة لعب ممتعة.</p>
+        </div>
+    </footer>
+    <div id="favorites-popup">
+        <h2 class="mb-5"> <span class="material-symbols-outlined text-[#ECC94B]">star</span> قائمة المفضلة</h2>
+        <ul id="favorites-list">
+        </ul>
+        <button id="close-favorites">إغلاق</button>
+    </div>
+    <div id="overlay"></div>
+    <script src="https://mawi-officiel.github.io/Monster-Play/cdn/js/theme/theme.3.js" defer></script>
+</body>
+</html>

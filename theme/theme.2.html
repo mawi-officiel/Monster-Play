@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://mawi-officiel.github.io/Monster-Play/cdn/css/theme/theme.2.css">
+</head>
+<body class="bg-gray-950 text-white font-sans">
+    <div id="loading-screen">
+        <div class="pixel-loader">
+            <div></div><div></div><div></div>
+            <div></div><div></div><div></div>
+            <div></div><div></div><div></div>
+        </div>
+    </div>
+    <button id="favorites-button" class="rounded-full shadow-lg">
+        <span class="material-symbols-outlined">star</span> المفضلة
+    </button>
+    <header class="bg-gradient-to-br from-[#282A36] to-[#44475A] p-8 shadow-2xl rounded-b-[2rem] relative overflow-hidden retro-header-bg">
+        <div class="container mx-auto text-center relative z-10">
+            <img src="https://taplink.st/a/7/d/6/d/a57088.png" alt="شعار تطبيق Monster Play" class="mx-auto mb-6 w-32 h-32 object-contain filter drop-shadow-xl animate-pixelFadeIn">
+            <h1 class="text-6xl font-extrabold text-[#F1FA8C] mb-4 tracking-wider drop-shadow-lg leading-tight animate-pixelFadeIn" style="animation-delay: 0.2s;">
+                <span class="inline-block transform hover:scale-110 transition-transform duration-200">👾</span> Monster Play <span class="inline-block transform hover:scale-110 transition-transform duration-200">🎮</span>
+            </h1>
+            <p class="text-xl text-[#B0B0B0] font-medium max-w-3xl mx-auto leading-relaxed opacity-90 animate-pixelFadeIn" style="animation-delay: 0.4s;">
+                استعد لرحلة ملحمية في عالم الألعاب! تحدى أصدقاءك وحطم الأرقام القياسية لتصبح بطل Monster Play!
+            </p>
+        </div>
+        <div class="absolute inset-0 z-0 opacity-15">
+            <div class="absolute w-40 h-40 bg-[#50FA7B] top-5 left-5 opacity-50 blur-lg animate-pulse" style="border-radius: 4px;"></div>
+            <div class="absolute w-60 h-60 bg-[#BD93F9] bottom-10 right-10 opacity-50 blur-lg animate-pulse" style="animation-delay: 0.5s; border-radius: 4px;"></div>
+            <div class="absolute w-32 h-32 bg-[#FF79C6] top-1/3 right-1/4 opacity-50 blur-lg animate-pulse" style="animation-delay: 1s; border-radius: 4px;"></div>
+        </div>
+    </header>
+    <main class="container mx-auto p-8 pt-16">
+        <h2 class="text-4xl font-bold mb-12 text-center text-[#F1FA8C] drop-shadow-lg animate-pixelFadeIn" style="animation-delay: 0.6s;">اكتشف مجموعتنا الضخمة من الألعاب</h2>
+        <div class="mb-12 text-center animate-pixelFadeIn" style="animation-delay: 0.8s;">
+            <input type="text" id="game-search" placeholder="ابحث عن لعبتك المفضلة..."
+                   class="w-full sm:w-2/3 md:w-1/2 lg:w-2/5 p-4 rounded-lg bg-[#383A4A] text-white placeholder-[#888888] focus:outline-none focus:ring-4 focus:ring-[#50FA7B] focus:ring-opacity-70 transition duration-300 shadow-xl text-lg text-right border border-[#44475A]">
+        </div>
+        <div class="mb-12 text-center animate-pixelFadeIn" style="animation-delay: 1s;">
+            <div class="inline-flex flex-wrap justify-center gap-4 bg-[#383A4A] p-3 rounded-lg shadow-lg border border-[#44475A]">
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md active" data-category="all">كل الألعاب</button>
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md" data-category="action">ألعاب حركية</button>
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md" data-category="puzzle">ألغاز</button>
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md" data-category="sports">رياضة</button>
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md" data-category="card">ألعاب ورق</button>
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md" data-category="music">موسيقى</button>
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md" data-category="casual">ألعاب خفيفة</button>
+                <button class="filter-button py-2 px-5 rounded-md transition duration-300 shadow-md" data-category="math">رياضيات</button>
+            </div>
+        </div>
+        <div id="games-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+        </div>
+    </main>
+    <footer class="bg-[#44475A] p-6 mt-16 shadow-inner rounded-t-[2rem]">
+        <div class="container mx-auto text-center text-[#B0B0B0] text-base">
+            © 2025 Monster Play. جميع الحقوق محفوظة.
+            <p class="text-sm mt-2">استمتع بتجربة اللعب الأسطورية!</p>
+        </div>
+    </footer>
+    <div id="favorites-popup">
+        <h2 class="mb-6"> <span class="material-symbols-outlined text-[#F1FA8C]">star</span> ألعابك المفضلة</h2>
+        <ul id="favorites-list">
+        </ul>
+        <button id="close-favorites">إغلاق</button>
+    </div>
+    <div id="overlay"></div>
+    <script src="https://mawi-officiel.github.io/Monster-Play/cdn/js/theme/theme.2.js" defer></script>
+</body>
+</html>
