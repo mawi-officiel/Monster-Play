@@ -63,7 +63,7 @@
     * **Theme 10:** [معاينة](https://mawi-officiel.github.io/Monster-Play/theme/theme.10.html) | [نسخ الكود](https://github.com/mawi-officiel/Monster-Play/blob/main/theme/theme.10.html)
 
 4.  بدء في إنشاء أقسام الألعاب في appcreator24.
-    قائمة معرفات الألعاب:
+    قائمة 150+ معرفات الألعاب:
 
     | إسم اللعبة              | ID          |
     | :---------------------- | :---------- |
@@ -227,7 +227,12 @@
     | Swing Monkey            | s\_m\_161   |
     | Defend The Tank         | d\_t\_t\_162 |
 
-5. اختيار نشر تطبيقك على منصة Monster Play: <https://mawi-officiel.github.io/Monster-Play/appcreator24.html>
+
+
+5. إضافة إعلانات **Google admob** وبدء تحقيق دخل
+
+6.  اختيار نشر تطبيقك على منصة Monster Play: <https://mawi-officiel.github.io/Monster-Play/appcreator24.html>
+7.  وأيض أهم شيء يجب عليك نشر تطبيق على Google Play
 
 ### 📥 هل تفضل تحميل التطبيق أولاً؟
 
