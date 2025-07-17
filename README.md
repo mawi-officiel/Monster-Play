@@ -35,7 +35,7 @@
   [Privacy Policy](https://mawi-officiel.github.io/Monster-Play/privacy-policy.html)
 
 - **مطور التطبيق:**
-  <https://mawi.taplink.ws/>
+  <https://www.mawiman.com>
 
 ---
 
@@ -256,4 +256,4 @@
 
 ---
 
-**© 2025 Monster-Play | جميع الحقوق محفوظة**
+**© 2025 Mawi Man | جميع الحقوق محفوظة**
